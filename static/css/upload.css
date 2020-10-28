@@ -1,0 +1,48 @@
+.upload label {
+  display: inline-block;
+  color: #fff;
+  font-size: inherit;
+  line-height: normal;
+  vertical-align: middle;
+  background-color: rgb(148, 146, 146);
+  cursor: pointer;
+  border: 1px solid rgb(148, 146, 146);
+  border-radius: .25em;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+  margin-top: 5px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.upload label:hover {
+  background-color: rgb(118, 113, 113);
+  border: 1px solid rgb(118, 113, 113);
+}
+
+.upload label:active {
+  background-color: black;
+}
+
+.upload input[type="file"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.upload input[type="submit"] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 5px;
+}
+
+

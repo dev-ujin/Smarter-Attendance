@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <head>
+    <link rel="stylesheet" href="../static/css/upload.css">
+    <link rel="stylesheet" href="../static/css/page-content.css">
+    <link href="http://fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <div class="card-header">
+        <h2>STEP 1</h2>
+    </div>
+    <div class="content">
+        <h5>촬영한 사진을 모두 선택해주세요.</h5>
+    </div>
+    <div class="upload">
+    <form method="POST" action="/uploader" enctype = "multipart/form-data">
+        <label for="file">파일 찾기</label>
+        <input type="file" id="file" class="btn btn-primary" name="file[]" multiple="multiple"/>
+        <input type="submit" id="submit" class="btn btn-primary"/>
+    </form>
+    </div>
+
+    <script>
+        $(documnet).ready(function () {
+            $('file').click(function () {
+                var n = $('file').length;
+                return n
+            })
+        })
+    </script>
+{% endblock %}

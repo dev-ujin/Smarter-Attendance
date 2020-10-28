@@ -1,0 +1,64 @@
+.mySlides {
+    display:none
+}
+.w3-left, .w3-right {
+    cursor:pointer;
+}
+.w3-badge {
+    height:13px;width:13px;padding:0
+}
+
+#positive{
+    background: rgb(254, 155, 5);
+}
+
+.content h6 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.content span1 {
+    color: rgb(254, 155, 5);
+}
+.content span2 {
+    color: rgb(191, 191, 191);
+}
+.counter {
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-align: center;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+.card-header {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.content {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.counter input[type="text"] {
+    text-align: center;
+}
+
+.make {
+    background: rgb(254, 155, 5);
+    padding: 10px;
+}
+
+.remove {
+    background: rgb(191, 191, 191);
+    padding: 10px;
+}
+
+.span {
+    color: rgb(0, 130, 148);
+    font-size: 20px;
+}

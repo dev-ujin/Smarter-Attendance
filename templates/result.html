@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+{% extends "layout.html"%}
+{% block content %}
+
+    <link href="http://fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/result.css">
+    <link rel="stylesheet" href="../static/css/page-content.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <div class="card-header" style="font-family: 'Noto Sans KR', sans-serif;">
+        <h2>STEP 3</h2>
+    </div>
+    <div class="content">
+        <h5>사진을 확인하면서 인원수를 수동으로 조정하세요.</h5>
+        <h6>[사용법]</h6>
+        잘린 얼굴이 아닌 <span>온전한 얼굴</span>에 대해서 <br/>
+        검출하지 못한 얼굴이 있다면 <button class="make">'make Yellow Box'</button> 버튼을 눌러주세요. <br>
+        버튼을 잘못 눌렀거나 얼굴이 아닌 영역에 yellow box가 그려져 있다면 <button class="remove">'remove Yellow Box'</button> 버튼을 눌러주세요.
+    </div>
+    <div class="counter">
+    <form>
+        <button class="btn" type=button id="positive" onclick="clickPositive(this)">make Yellow Box</button>
+        <input type=text name=amount value={{ totalcount }}>
+        <button class="btn" type=button id="negative" onClick="clickNegative(this)">remove Yellow Box</button>
+    </form>
+    </div>
+    <div class="w3-content w3-display-container" style="max-width:800px">
+        {% for image in image_dir_output %}
+            <img class="mySlides" src="{{ url_for('send_image_output', filename=image)}}" alt='' style="width:100%">
+        {% endfor %}
+        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-topmiddle" style="width:100%">
+            <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+            <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+            {% set index = 1 %}
+            {% for image in image_dir_output%}
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(index)"></span>
+                {% set index = index + 1 %}
+            {% endfor %}
+        </div>
+    </div>
+    <script>
+        var slideIndex = 1;
+        var sizeoforiginalimage={{ length }};
+        showDivs(slideIndex);
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function currentDiv(n) {
+            showDivs(slideIndex = n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            if (n > x.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" w3-white", "");
+            }
+            x[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " w3-white";
+        }
+
+        function getSlideIndex() {
+	        return slideIndex
+        }
+        function clickPositive(t) {
+            var index = getSlideIndex();
+            if (index <= sizeoforiginalimage) {
+                goUp(t);
+            }
+            else {
+                goDown(t);
+            }
+        }
+        function clickNegative(t) {
+            var index = getSlideIndex();
+            if (index <= sizeoforiginalimage) {
+                goDown(t);
+            }
+            else {
+                goUp(t);
+            }
+        }
+
+        function goUp(t) {
+            t.form.amount.value++;
+        }
+
+        function goDown(t) {
+            t.form.amount.value--;
+        }
+	</script>
+{% endblock %}

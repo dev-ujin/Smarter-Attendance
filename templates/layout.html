@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../static/css/layout.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+
+<body>
+	<div class="header">
+
+	</div>
+
+
+	<div class="nav-bar">
+		<ul class="nav-container">
+			<li class="nav-item"><a href="./">HOME</a></li>
+			<li class="nav-item"><a href="./guide">GUIDE</a></li>
+			<li class="nav-item"><a href="./upload">COUNTING</a></li>
+		</ul>
+	</div>
+
+<div class="page">
+	<div class="container">
+	    <div class="row justify-content-center">
+	      <div class="col-lg-12">
+	        <div class="card lg-4">
+	          <div class="card-body">
+	            {% block content %}
+	            {% endblock %}
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+  	</div>
+</div>
+
+
+</body>
+</html>

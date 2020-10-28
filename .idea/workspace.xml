@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="96cc47b9-3edd-430e-ae34-9564385ac33b" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1P2EcYCtDcmCnHmDFH4dieEfoEF" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/image/input_image" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\UJIN\PycharmProjects\GP\image\guide_image" />
+      <recent name="C:\Users\UJIN\PycharmProjects\GP" />
+      <recent name="C:\Users\UJIN\PycharmProjects\GP\logo" />
+      <recent name="C:\Users\UJIN\PycharmProjects\GP\faceDetection" />
+      <recent name="C:\Users\UJIN\PycharmProjects\GP\findOverlappedArea" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\UJIN\PycharmProjects\GP\image\input_image" />
+      <recent name="C:\Users\UJIN\PycharmProjects\GP\logo" />
+      <recent name="C:\Users\UJIN\PycharmProjects\GP\image" />
+      <recent name="C:\Users\UJIN\PycharmProjects\GP" />
+      <recent name="C:\Users\UJIN\PycharmProjects\GP\static\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.app">
+    <configuration name="StitchEveryImageMain" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StitchEveryImageMain.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="GP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GP" type="Python.FlaskServer">
+      <module name="GP" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.StitchEveryImageMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\UJIN\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96cc47b9-3edd-430e-ae34-9564385ac33b" name="Default Changelist" comment="" />
+      <created>1558025305509</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558025305509</updated>
+      <workItem from="1558025308753" duration="6079000" />
+      <workItem from="1558056317348" duration="8151000" />
+      <workItem from="1558070156161" duration="32708000" />
+      <workItem from="1558240168332" duration="242000" />
+      <workItem from="1558240434725" duration="1567000" />
+      <workItem from="1558242029237" duration="7868000" />
+      <workItem from="1558409624929" duration="4741000" />
+      <workItem from="1558755619122" duration="1207000" />
+      <workItem from="1558797515432" duration="1202000" />
+      <workItem from="1558875053613" duration="9836000" />
+      <workItem from="1558947076287" duration="729000" />
+      <workItem from="1558947974991" duration="1073000" />
+      <workItem from="1558977912305" duration="9241000" />
+      <workItem from="1559218638866" duration="8931000" />
+      <workItem from="1559282320970" duration="701000" />
+      <workItem from="1559304416248" duration="13338000" />
+      <workItem from="1559383319320" duration="6660000" />
+      <workItem from="1559407227625" duration="7853000" />
+      <workItem from="1559498939923" duration="830000" />
+      <workItem from="1559718825122" duration="1890000" />
+      <workItem from="1559746758562" duration="14278000" />
+      <workItem from="1559763527207" duration="22642000" />
+      <workItem from="1559836085931" duration="42955000" />
+      <workItem from="1559955608315" duration="3989000" />
+      <workItem from="1559959961057" duration="1507000" />
+      <workItem from="1559997226763" duration="467000" />
+      <workItem from="1560258836516" duration="345000" />
+      <workItem from="1564971153568" duration="476000" />
+      <workItem from="1565063872384" duration="1992000" />
+      <workItem from="1565146842442" duration="31000" />
+      <workItem from="1565167418224" duration="607000" />
+      <workItem from="1565334854588" duration="362000" />
+      <workItem from="1565336473004" duration="903000" />
+      <workItem from="1566880776026" duration="795000" />
+      <workItem from="1566885036620" duration="7000" />
+      <workItem from="1569237989657" duration="631000" />
+      <workItem from="1574956736918" duration="995000" />
+      <workItem from="1575030624712" duration="1697000" />
+      <workItem from="1575099500301" duration="3217000" />
+      <workItem from="1575114747236" duration="2565000" />
+      <workItem from="1575365164876" duration="620000" />
+      <workItem from="1575400064286" duration="839000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="jinja2-line">
+          <url>file://$PROJECT_DIR$/templates/result.html</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/GP$GP.coverage" NAME="GP Coverage Results" MODIFIED="1558240580277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

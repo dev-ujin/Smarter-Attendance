@@ -1,0 +1,33 @@
+span {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.guide, .counting {
+    background: rgb(141, 112, 79);
+    font-weight: bold;
+    padding: 5px;
+    margin: 2px;
+    text-decoration: none;
+    color: white;
+}
+.guide:link {
+    text-decoration: none;
+    color: white;
+}
+.guide:visited {
+    text-decoration: none;
+    color: white;
+}
+.guide:hover{
+    text-decoration: none;
+    color: white;
+}
+.guide:active {
+    text-decoration: none;
+    color: white;
+}
+span {
+    color: rgb(0, 130, 148);
+    font-size: 20px;
+}
